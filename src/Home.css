@@ -1,0 +1,39 @@
+/* Home.css */
+body{
+    background-color: #EFF2F5
+}
+
+.page{
+    display: flex;
+}
+
+.sideBox{
+        width: 85%;
+        margin: 20px 0px;
+        padding: 20px;
+        border: 1px solid #f1eded;
+        border-radius: 7px;
+        background-color: white;
+    }
+
+.box {
+    width: 93%;
+    margin: 20px 0;
+    padding: 20px;
+    padding-top: 1px;
+    border: 1px solid #f1eded;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.container1{
+    padding-left: 33px;
+}
+
+.last {
+    width: 95%;
+    border: 1px solid white;
+    padding: 30px;
+    padding-left: 40px;
+    background-color: white;
+}
