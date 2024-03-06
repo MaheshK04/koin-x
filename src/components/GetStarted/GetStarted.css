@@ -1,0 +1,21 @@
+.head{
+    font-weight: 900;
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    padding: 1px;
+    width: 60%;
+    height: 70%;
+}
+
+button >p  {
+    font-weight: 700;
+    font-size: 15px;
+}
