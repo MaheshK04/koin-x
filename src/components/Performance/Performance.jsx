@@ -1,4 +1,5 @@
 import React from "react";
+//import TradingViewWidget from "../TradingViewWidget";
 
 function Performance() {
   return (
