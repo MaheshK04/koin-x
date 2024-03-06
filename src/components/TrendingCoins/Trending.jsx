@@ -27,37 +27,18 @@ function Trending() {
   }, [trendingCoins]);
   console.log(trendingCoins);
   console.log(topThreeCoins);
-  // return <div>{trendingCoins.slice(0,3).map((coin, index) => (
-  //   <div key={index}>
-  //     <h2>{coin.name}</h2>
-  //   </div>
-  // ))}</div>;
-  // return (
-  //   <div>
-  //     <h2>Trending Coins</h2>
-  //     {trendingCoins ? (
-  //       <div>
-  //         {trendingCoins.slice(0, 3).map((coin) => (
-  //           <div key={coin.id}>
-  //             <h3>{coin.name}</h3>
-  //             <p>Market Cap: {coin.data.market_cap}</p>
-  //             {/* Add more details as needed */}
-  //           </div>
-  //         ))}
-  //       </div>
-  //     ) : (
-  //       <p>Loading...</p>
-  //     )}
-  //   </div>
-  // );
   return (
     <div>
       <h2>Trending Coins(24h)</h2>
       {topThreeCoins.map((coin, index) => (
         <div key={coin.item.id} className="trending-item">
-          <img src={coin.item.small} alt={coin.item.name} />
+          <img
+            src={coin.item.small}
+            alt={coin.item.name}
+            style={{ marginTop: "10px" }}
+          />
           <div>
-            <p>
+            <p style={{ marginBottom: "5px" }}>
               {coin.item.name}({coin.item.symbol})
             </p>
           </div>
