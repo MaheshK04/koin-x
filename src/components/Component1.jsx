@@ -1,15 +1,17 @@
 import React from "react";
-
+import dp from "../assets/image.png";
 function Component1() {
   return (
     <div>
-      <h1>Get Started with KoinX for FREE</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam mollitia
-        inventore sit, eius reiciendis temporibus odit sequi placeat facere
-        eligendi odio corrupti id quasi, suscipit sint quibusdam, exercitationem
-        dolore aut.
+        Get Started with KoinX <br></br> for FREE
       </p>
+      <p>
+        with our range of features that you can equip for free, KoinX allows you
+        to be more educated and aware of your tax reports.
+      </p>
+      <img src={dp} alt="" style={{ width: "300px", height: "250px" }} />
+      <button>Get Started for FREE</button>
     </div>
   );
 }

@@ -37,7 +37,7 @@ function Home() {
         </div>
         <div className="container2">
           <div className="sideBox1">
-            <Component1 />
+            <GetStarted />
           </div>
           <div className="sideBox">
             <Trending />
