@@ -9,6 +9,7 @@ import Performance from "./components/Performance/Performance";
 import Sentiment from "./components/Sentiment/Sentiment";
 import Component1 from "./components/Component1";
 import Trending from "./components/TrendingCoins/Trending";
+import GetStarted from "./components/GetStarted/GetStarted";
 
 function Home() {
   return (
@@ -35,11 +36,11 @@ function Home() {
           </div>
         </div>
         <div className="container2">
-          <div className="sideBox">
+          <div className="sideBox1">
             <Component1 />
           </div>
           <div className="sideBox">
-            <Trending/>
+            <Trending />
           </div>
         </div>
       </div>

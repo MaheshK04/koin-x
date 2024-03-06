@@ -15,6 +15,16 @@ body{
         border-radius: 7px;
         background-color: white;
     }
+.sideBox1 {
+    width: 85%;
+    margin: 20px 0px;
+    color: white;
+    padding: 20px;
+    border: 1px solid #f1eded;
+    border-radius: 20px;
+    background-color: #0052FE;
+}
+
 
 .box {
     width: 93%;
