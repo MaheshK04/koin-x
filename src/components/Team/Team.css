@@ -1,0 +1,36 @@
+.container {
+    width: 780px;
+    height: 160px;
+    margin-bottom: 10px;
+    border: 1px solid #E8F4FD;
+    display: flex;
+    border-radius: 5px;
+    background-color: #E8F4FD;
+}
+
+.image-container {
+    border-radius: 10px;
+    margin-left:20px;
+    margin-top:10px;
+    width: 200px;
+    height: 100px;
+}
+
+.image-container img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.text-container {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.image-container >a {
+    padding-left:20px;
+}
