@@ -1,7 +1,31 @@
-.card {
-    width: 250px;
-    height: 200px;
-    border-radius: 5px;
-    background: #e0e0e0;
+body{
+    margin: 0;
+    padding: 0;
 }
+
+ 
+
+.card {
+    width: 180px;
+    height: 150px;
+    border:1px solid rgb(19, 18, 18);
+    border-radius: 5px;
+    background: #fffcfc;
+    margin:0 100px;
+}
+
+
+.coin img{
+    padding-top: 1px;
+    margin-bottom: -4px;
+}
+
+#symbol{
+    color: red;
+    padding-left:7px;
+    padding-top:30px;
+    font-size: 20px;
+}
+
+
 
