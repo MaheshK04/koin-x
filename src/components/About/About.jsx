@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import img from "../../assets/2.jpeg";
 
 function About() {
   return (
@@ -33,41 +34,33 @@ function About() {
         Eaque, provident?
       </p>
       <h3>ALREADY holding bitcoin</h3>
-      
-<div class="card">
-    <div class="infos">
-        <div class="image"></div>
-        <div class="info">
-            <div>
-                <p class="name">
-                    John Doe
-                </p>
-                <p class="function">
-                    Front-end dev 
-                </p>
-            </div>
-            <div class="stats">
-                    <p class="flex flex-col">
-                        Articles
-                        <span class="state-value">
-                            34
-                        </span>
-                    </p>
-                    <p class="flex">
-                        Followers
-                        <span class="state-value">
-                            455
-                        </span>
-                    </p>
-                    
-            </div>
+      <div className="total">
+        <div className="firstBox">
+          <div className="image-container">
+            <img src={img} alt="Your Image" />
+          </div>
+          <div className="text-container">
+            <p>Calculate your Profits</p>
+            <button>CLICK ME</button>
+          </div>
         </div>
-    </div>
-    <button class="request" type="button">
-            Add friend
-        </button>
-</div>
 
+        <div className="secondBox">
+          <div className="image-container">
+            <img src={img} alt="Your Image" />
+          </div>
+          <div className="text-container">
+            <p>Calculate your Liability</p>
+            <button>CLICK ME</button>
+          </div>
+        </div>
+      </div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nisi
+        doloremque voluptas tempora dolor perspiciatis modi dicta deleniti quas
+        laudantium! Iusto ea saepe quas reprehenderit voluptates officiis sunt
+        voluptate odio?
+      </p>
     </div>
   );
 }

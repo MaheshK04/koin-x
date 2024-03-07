@@ -7,13 +7,21 @@ import YouMayLike from "./components/YouMayLike/YouMayLike";
 import Bitcoin from "./components/Bitcoin/Bitcoin";
 import Performance from "./components/Performance/Performance";
 import Sentiment from "./components/Sentiment/Sentiment";
-import Component1 from "./components/Component1";
 import Trending from "./components/TrendingCoins/Trending";
 import GetStarted from "./components/GetStarted/GetStarted";
+import Navbar from "./components/Navbar/Navbar";
+
+
 
 function Home() {
   return (
     <>
+      <div>
+        <Navbar />
+      </div>
+      <p className="bitcoin">
+        Cryptocurrencies {">>"} <a>Bitcoin</a>
+      </p>
       <div className="page">
         <div className="container1">
           <div className="box">

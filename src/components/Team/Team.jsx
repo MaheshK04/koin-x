@@ -24,7 +24,7 @@ function Team() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
             itaque nemo magni sint, dolore ab in, possimus adipisci iusto
             dignissimos vitae expedita repudiandae hic saepe distinctio at esse
-            consectetur eveniet?
+            consectetur eveniet? Lorem ipsum dolor sit amet consectetur,
           </p>
         </div>
       </div>

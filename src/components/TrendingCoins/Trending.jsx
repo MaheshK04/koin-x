@@ -25,8 +25,8 @@ function Trending() {
       setTopThreeCoins(trendingCoins.coins.slice(0, 3));
     }
   }, [trendingCoins]);
-  console.log(trendingCoins);
-  console.log(topThreeCoins);
+  // console.log(trendingCoins);
+  // console.log(topThreeCoins);
   return (
     <div>
       <h2>Trending Coins(24h)</h2>
